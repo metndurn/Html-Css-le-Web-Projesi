@@ -1,0 +1,142 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.headings{
+    text-align: center;
+    padding: 20px;
+    font-size: 30px;
+}
+.navbar{
+    display: flex;
+    background-color: rgb(95, 221, 164);
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+}
+.navbar h1{
+    color: white;
+}
+.navbar ul{
+    list-style-type: none;
+    display: flex;
+}
+.navbar ul li{
+    margin: 10px;
+    font-weight: bold;
+}
+.navbar ul li a{
+    color: white;
+    text-decoration: none;
+}
+.navbar ul li a:hover{
+    color: rgb(8, 171, 54);
+}
+#home{
+    height: 500px;
+    background: url(images/batan-gunes.JPG) center;
+    /* kodun uzun hali burada yazılırdır
+    background-image: url(images/bla.bla.png);
+    background-position: center;
+    */
+    background-repeat: no-repeat;
+    background-size: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#home .main{
+    text-align: center;
+}
+#home .main h1{
+    font-size: 35px;
+    color: white;
+}
+#home .main p{
+    color: white;
+}
+#about{
+    display: flex;
+    flex-direction: column;
+}
+#about .about-image{
+    display: flex;
+    padding: 20px;
+    margin: 20px;
+}
+#about .about-image img{
+    width: 500px;
+    height: 350px;
+    margin-left: 20px;
+}
+#about .about-image .about-text{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+#service{
+    display: flex;
+    flex-direction: column;
+}
+#service .row{
+    display: flex;
+}
+#service .row .box{
+    border:1px solid white;
+    background-color: rgb(95, 221, 164);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: justify;
+    padding: 10px;
+    width: 300px;
+    height: 450px;
+    margin: auto;
+    border-radius: 14px;
+    color: white;
+}
+#service .row .box img{
+    width: 70px;
+    height: 70px;
+}
+#contact{
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+    background-color: rgb(95, 221, 164);
+    margin-top: 15px;
+}
+form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: white;
+}
+input{
+    width: 30%;
+    margin: 10px;
+    padding: 13px;
+    outline: none;
+    border: none;
+}
+textarea{
+    width: 30%;
+    margin: 10px;
+    padding: 13px;
+    outline: none;
+    border: none;
+}
+#gonder{
+    width: 20%;
+    margin: 10px;
+}
+.footer{
+    background-color: rgb(7, 172, 98);
+    height: 75px;
+    width: 100%;
+    text-align: center;
+    line-height: 75px;
+    font-weight: bold;
+}
